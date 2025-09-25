@@ -54,12 +54,15 @@ Shell Linux :
 <img width="605" height="234" alt="Capture d’écran 2025-09-18 153203" src="https://github.com/user-attachments/assets/1728c1b7-04c6-4104-9d49-362b47f9f81d" />
 
 > Q1. Quelle est la disposition du clavier américain ?
+
 > QWERTY
 
 > Q2. Quelle est la disposition du clavier suisse romand ?
+
 > QWERTZ
 
 > Q3. Quelle est la disposition du clavier français ?
+
 AZERTY
 
 > 
@@ -82,10 +85,19 @@ le troixième groupe r-x: Est pour tout autre utilisateur et ils ont egalement l
 1: Indique le nombre de lien qui pointent vers ce répertoire ou fichier 
 root: Indique le propriétaire du fichier ou répertoir, dans notre cas l'utilisateur est root.
 Deuxième root: Indique le groupe auquel appartient le fichiez ou le répertoire, dans notre cas le groupe est root
+60: correspond à la taille du réperetoir
+Sep 18 13:29 : correspond à la dernière modification du répertoir
 
 ![Placer votre capture d'écran]() 
 
+J. Créez un répertoire de travail nommé « EMSY_XXX-YYY ».
+Q7. Dans quel dossier allez-vous le placer (justifiez votre réponse) ?
+Dans le répertoire /home, car il contient les répertoires personels des utilisateur.
+Q8. Quelle commande allez-vous utiliser ?
+sudo mkdir EMSY_NAM-CAH
 11. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 
+
+
 
 > votre commande ?! 
 
