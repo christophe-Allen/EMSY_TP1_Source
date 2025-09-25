@@ -2,7 +2,7 @@
 
 ## Groupe 
 
-- vos noms 
+- Noé Alam christophe allenbach 
 
 ## But 
 
@@ -31,7 +31,7 @@ Cette manipulation a pour but d'installer une distribution linux [Sparky Linux](
 
 ![OS name choice](/Images/OS_Choice.jpg) 
 
-6. Nommez la machine virtuelle : `SparkyLinux-VosInitiales` 
+6. Nommez la machine virtuelle : `SparkyLinux-NAM-CAH` 
 
 7. Creez un disque virtuel -> capcité : **20GB** 
 
@@ -48,20 +48,40 @@ Cette manipulation a pour but d'installer une distribution linux [Sparky Linux](
 ## Lancement de l'image ISO (Linux - Live CD) 
 
 Lancement du live CD : 
-
-[Placer votre capture d'écran]() 
-
+G:
 Shell Linux : 
 
-[Placer votre capture d'écran]() 
+<img width="605" height="234" alt="Capture d’écran 2025-09-18 153203" src="https://github.com/user-attachments/assets/1728c1b7-04c6-4104-9d49-362b47f9f81d" />
 
-> **ATTENTION** : par défaut, le clavier est configuré est **Clavier Americain**
+> Q1. Quelle est la disposition du clavier américain ?
+> QWERTY
 
-9. Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
+> Q2. Quelle est la disposition du clavier suisse romand ?
+> QWERTZ
 
-> vore commande ?!
+> Q3. Quelle est la disposition du clavier français ?
+AZERTY
 
-10. Affichez le contenu de la racine avec la commande : `ls –l`	
+> 
+H. Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
+
+> Q4. Quelle est la commande complète ?
+cd /
+> 
+
+i. Affichez le contenu de la racine avec la commande : `ls –l`	
+Q5. que signifie l'option -l?
+C'est pour afficher le répertoire ou un dossier sous forme longue
+
+Q6. "Décryptez" la ligne où se trouve le répertoire home.
+drwxr-xr-x	1 root root	60 Sep 18 13:29
+d: Indique le type de fichier ou de répertoire. Dans notre cas, d signifie un répertoire (directory)
+rwxr-xr-x: Le premier groupe rwx est pour le propriétaire cela signifie que le propriétaire a des permission pour lire (r), écrire(w) et exécuter (x) sur ce répertoir
+le deuxième groupe r-x: Signifie que les membre du groupe peuvent lire(r) et exécuter (x) le répertoire et non le modifier
+le troixième groupe r-x: Est pour tout autre utilisateur et ils ont egalement la permision de lire (r) et exécuter (x) le répertoir, mais pas le modifier
+1: Indique le nombre de lien qui pointent vers ce répertoire ou fichier 
+root: Indique le propriétaire du fichier ou répertoir, dans notre cas l'utilisateur est root.
+Deuxième root: Indique le groupe auquel appartient le fichiez ou le répertoire, dans notre cas le groupe est root
 
 ![Placer votre capture d'écran]() 
 
