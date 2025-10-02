@@ -95,20 +95,36 @@ Q7. Dans quel dossier allez-vous le placer (justifiez votre réponse) ?
 Dans le répertoire /home, car il contient les répertoires personels des utilisateur.
 Q8. Quelle commande allez-vous utiliser ?
 sudo mkdir EMSY_NAM-CAH
-11. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 
 
+K. Dans ce répertoire, créez un fichier texte que vous nommerez « TESTSLO_XXX-YYY » et écrivez
+un texte, par exemple : « Test Linux by XXX et YYY » 
 
+Q9. Pouvez-vous éditer le fichier texte uniquement avec la commande vi ?
+non, il existe d'autre éditeur de texte.
 
-> votre commande ?! 
+Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé 
+ci-dessus existe toujours et pourquoi ?
+Non, il n'existe plus. Car il étais enregister dans la mémoire RAM.
 
-12. Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
-	Utiliser la commande `vi`
+L. Tapez la commande `ls -l /dev/sda` 
+Q11. Que signifie sda ?
+sda sgnifie Disk A (premier disque).
+Q12. Comme pour la question 6, « décryptez » le résultat affiché.
 
-> votre commande ?! 
+b: C'est le fichier bloc
+rw-: propriètaire peut lire et écrire
+rw-: groupe peut lire et écrire
+---: les autre utilisateur no'ont aucun droits
+1:	Nombre de liens phisyques vers ce fichier
+root: propriètaire du fichier
+disk: groupe propriètaire 
+8:	numéro majeur du périférique
+0: numéro mineur du périférique
+Oct 2 13:07: date et heure de la dernière modification
+/dev/sda: chemin du fichier périférique
 
-13. Tapez la commande `ls -l /dev/sda` 
+<img width="409" height="60" alt="image (1)" src="https://github.com/user-attachments/assets/7192dc54-8adc-45b2-845d-aa3a98aa3fd2" />
 
-![Placer votre capture d'écran]() 
 
 
 ## Questions / Réponses 
@@ -155,7 +171,28 @@ Q10. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> v
 
 > votre réponse ?!
 
+Partie 3: Installation sur le disque dur de la VM
 
+M. Pour cela, il faut lancer l’« installer» fourni avec le 
+live-cd. Pour vous aider à réaliser cette installation, 
+regardez les pages Wiki de la distribution de Sparky 
+(aide). 
+(https://wiki.sparkylinux.org/doku.php/start)
+
+Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution 
+Sparky ?
+il faut environ 10-20Go pour l'installation.
+
+Q14. A quoi sert la partition swap ? Est-ce que ce principe existe sur les OS 
+Microsoft Windows ? 
+1.  la partition swap est une section dédiée du disque dur utilisée comme mémoire virtuelle.
+2.  Oui, il existe un équivalent aux partion swap sur les OS Microsoft Windows.
+
+Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également
+accessible depuis un OS Microsoft ? 
+formats compatible: FAT32, exFAT, exFat32
+
+Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent'ils ? 
 
 ## Tips 
 
