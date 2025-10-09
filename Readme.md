@@ -194,6 +194,10 @@ formats compatible: FAT32, exFAT, exFat32
 
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent'ils ? 
 
+N.
+<img width="352" height="105" alt="image" src="https://github.com/user-attachments/assets/eb223564-11e8-4585-97c3-d1f08974ded4" />
+
+
 ## Tips 
 
 > $$Tips^1$$ : sortir de la VM -> appuyer simultanément sur `Ctrl` et `Alt` 
