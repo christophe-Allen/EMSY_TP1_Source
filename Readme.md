@@ -195,8 +195,43 @@ formats compatible: FAT32, exFAT, exFat32
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent'ils ? 
 
 N.
+<img width="1086" height="708" alt="image" src="https://github.com/user-attachments/assets/94b75162-d8df-4c7b-9952-3a76eaac31b8" />
+
 <img width="352" height="105" alt="image" src="https://github.com/user-attachments/assets/eb223564-11e8-4585-97c3-d1f08974ded4" />
 
+O.Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand 
+trouvable sous « German (Switzerland)) et procédez à la configuration du clavier.
+il faut taper cette commande: sudo dpkg-reconfigure keyboard-configuration
+
+P.Testez si l’application « nano » est installée sur votre machine, tapez la commande : 
+nano -version
+Q17. À quoi sert « nano » ?
+Il s'agit d'un autre éditeur de texte en ligne de commande
+
+Q. Testez si l’application « git » est installée sur votre distribution, si ce n’est pas le cas installez
+un client git.
+Q18. Comment savoir si « git » est déjà installé ? 
+il suffit de taper la commande git est il est censé s'ouvrir si il est installé
+Q19. Quelle(s) commande(s) utilisez-vous pour l’installer ? 
+Pour mettre a jour la liste de paquet: sudo apt update 
+pour installer git: sudo apt install git
+Q20. Que veut dire « apt » ? 
+apt veut dire: Advanced Packaging Tool  
+Q21. Est-ce que cette commande peut être utilisée sur toutes les distributions Linux ?
+Non, elle est spécifiquement conçu pour fonctionner avec les distribution basées sur debian. 
+
+R. Créez un sous-répertoire « EMSY_TP1_XXX-YYY » dans le répertoire de votre utilisateur.
+Attention : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution.
+Q22. Quel est le répertoire utilisateur ?
+le réperstoire utilisateur est cah
+
+Q23. Quelles sont les commandes que vous allez utiliser ? 
+il faut taper: mkdir EMSY_TP1_NAM-CAH
+
+Dans ce répertoire, tapez la commande : 
+git clone https://github.com/christophe-Allen/EMSY_TP1_Source
+Il faut au préalable que vous ayez mis en place à cette adresse un fork du dépôt fourni.
+Q24. Qu’observez-vous dans votre répertoire ?
 
 ## Tips 
 
