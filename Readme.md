@@ -72,7 +72,8 @@ H. Déplacez-vous à la **racine du système** en utilisant la commande suivante
 cd /
 > 
 
-i. Affichez le contenu de la racine avec la commande : `ls –l`	
+I. Affichez le contenu de la racine avec la commande : `ls –l`	
+
 Q5. que signifie l'option -l?
 C'est pour afficher le répertoire ou un dossier sous forme longue
 
@@ -88,11 +89,14 @@ Deuxième root: Indique le groupe auquel appartient le fichiez ou le répertoire
 60: correspond à la taille du réperetoir
 Sep 18 13:29 : correspond à la dernière modification du répertoir
 
-![Placer votre capture d'écran]() 
+<img width="409" height="16" alt="image" src="https://github.com/user-attachments/assets/73e15425-fe1f-4aed-83fe-2fbc2910dc65" />
+
 
 J. Créez un répertoire de travail nommé « EMSY_XXX-YYY ».
+
 Q7. Dans quel dossier allez-vous le placer (justifiez votre réponse) ?
 Dans le répertoire /home, car il contient les répertoires personels des utilisateur.
+
 Q8. Quelle commande allez-vous utiliser ?
 sudo mkdir EMSY_NAM-CAH
 
@@ -107,8 +111,10 @@ ci-dessus existe toujours et pourquoi ?
 Non, il n'existe plus. Car il étais enregister dans la mémoire RAM.
 
 L. Tapez la commande `ls -l /dev/sda` 
+
 Q11. Que signifie sda ?
 sda sgnifie Disk A (premier disque).
+
 Q12. Comme pour la question 6, « décryptez » le résultat affiché.
 
 b: C'est le fichier bloc
@@ -124,52 +130,6 @@ Oct 2 13:07: date et heure de la dernière modification
 /dev/sda: chemin du fichier périférique
 
 <img width="409" height="60" alt="image (1)" src="https://github.com/user-attachments/assets/7192dc54-8adc-45b2-845d-aa3a98aa3fd2" />
-
-
-
-## Questions / Réponses 
-
-Q1. Comment se nomme le clavier américain ?
-
-> votre réponse ?!
-
-Q2. Comment se nomme le clavier suisse-romand ?
-
-> votre réponse ?!
-
-Q3. Comment se nomme le clavier français ? 
-
-> votre réponse ?!
-
-Q4. Que signifie l'option `-l` avec la commande `ls` 
-
-> votre réponse ?!
-
-Q5. Décrypter la ligne où se trouve le répertoire **home**    
-
-[Placer votre capture d'écran]()
-
-> votre réponse ?!
-
-Q6. Si vous créez un répertoire de travail (pour éditer/sauvegarder des fichiers), dans quelle **répertoire racine** vous vous placez ? 
-
-> votre réponse ?!
-
-Q7. dans le répertoire `/home`, pouvez-vous éditez un fichier uniquement avec la commande `vi` 
-
-> votre réponse ?!
-
-Q8. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé ci-dessus existe toujours (justifiez votre réponse) ? 
-
-> votre réponse ?!
-
-Q9. Que signifie **sda** ? 
-
-> votre réponse ?!
-
-Q10. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
-
-> votre réponse ?!
 
 Partie 3: Installation sur le disque dur de la VM
 
@@ -232,6 +192,24 @@ Dans ce répertoire, tapez la commande :
 git clone https://github.com/christophe-Allen/EMSY_TP1_Source
 Il faut au préalable que vous ayez mis en place à cette adresse un fork du dépôt fourni.
 Q24. Qu’observez-vous dans votre répertoire ?
+nous pouvons observer que le depot github a été cloner dans linux.
+
+T. Editez le fichier source .c avec l’éditeur de texte « nano ».
+Réalisez un petit programme en C (par exemple de type « Hello world »).
+
+U. Vérifiez si le compilateur « gcc » est bien installé.
+Notez la version du logiciel.
+Tapez les commandes suivantes :
+gcc -Wall -o fichier.o -c fichier.c 
+gcc -o fichier fichier.o 
+Remarque : « fichier » est à remplacer par le nom de votre choix
+Q25. Quels sont les fichiers qui ont été générés ?
+les fichiers.o sont générer.
+
+V. Entrez la commande suivante :
+./fichier
+Q26. Que se passe-t-il ? 
+le programme s'exécute.
 
 ## Tips 
 
