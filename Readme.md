@@ -203,11 +203,13 @@ Tapez les commandes suivantes :
 gcc -Wall -o fichier.o -c fichier.c 
 gcc -o fichier fichier.o 
 Remarque : « fichier » est à remplacer par le nom de votre choix
+
 Q25. Quels sont les fichiers qui ont été générés ?
 les fichiers.o sont générer.
 
 V. Entrez la commande suivante :
 ./fichier
+
 Q26. Que se passe-t-il ? 
 le programme s'exécute.
 
